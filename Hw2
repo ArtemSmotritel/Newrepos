@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var arr = [2, 5, 1, 3, 1, 2, 1, 7, 7, 6];
+    var water;
+    var diff;
+    var min;
+    var first = arr[0];
+    var second = arr[1];
+    var third = arr[2];
 
+    min = Math.min(first, third);
+    diff = min - second;
+    if (diff >= 0) {
+      water = water + diff;
+      return
+      }
+    var maxinarr = arr.map(function(index, height))
+    </script>
+  </body>
+</html>
